@@ -50,7 +50,7 @@
     <form action="./success.html">
 
         <label for="username">Username: </label>
-        <input type="text" name="user" id="username" required>
+        <input type="text" name="user" id="username" required placeholder="username">
 
         <br><br>
         <label for="password">Password:</label>
@@ -94,6 +94,9 @@
 
         <br><br>
         <label for="select">Choose options:</label>
+
+        <!-- Select tag not part of Input tag  -->
+
         <select name="country" id="select">
             <option value="india">India</option>
             <option value="sa">South Africa</option>
@@ -102,6 +105,13 @@
 
         <br><br>
 
+        <br><br>
+
+        <!-- TextArea tag is not part of the Input tag -->
+        
+        <textarea name="description" id="description" cols="100" rows="2"></textarea>
+
+        <!-- Button tag not part of Input tag -->
         <button disabled="disabled">Nonactive</button>
         <button type="reset">Reset</button>
         <input type="submit" value="Please Submit">
