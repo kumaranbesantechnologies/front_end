@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model- Border</title>
+    <title>Box Model- Padding</title>
     <style>
         /* Universal Selector */
         *{
@@ -17,18 +17,26 @@
 
             /* Border property */
             border-color: black;
-            border-style: solid;
-            border-top-color: pink; 
-            border-right-color: blue; 
-            border-bottom-color: green; 
+            border-style: dashed; 
             border-width: 10px;
 
             /* Border property shorthand */
             border: blue solid 5px;
 
-            /* Control border radius */
-            border-radius: 10px;
-            border-radius: 50%;
+            /* Padding on all sides with one value*/
+            padding: 50px;
+
+            /* Specify direction for particular side padding */
+            padding-left: 100px;
+            padding-top: 200px;
+
+            /* Padding on all directions with four values */
+            padding: 10px 30px 50px 36px;
+
+            /* Padding on all directions with two values */
+            padding: 10px 50px;
+
+            margin-left: 20px;
             
         }
     </style>
